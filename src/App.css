@@ -1,5 +1,6 @@
 .App {
   background-color: #2C2C2C;
+  width: 1000px;
 }
 
 .App-logo {
@@ -56,4 +57,19 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+.Carousel-Image {
+  height: 200px;
+  width: 175px;
+}
+
+.slider {
+  height: 400px;
+  width: 800px;
+}
+
+.single-slide {
+  max-width: 200px;
+  height: auto;
 }

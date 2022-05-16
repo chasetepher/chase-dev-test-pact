@@ -1,5 +1,5 @@
 .App {
-  /* background-color: #2C2C2C; */
+  background-color: #2C2C2C;
 }
 
 .App-logo {
@@ -8,14 +8,14 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .headline-text {
+    /* animation: App-logo-spin infinite 5s linear; */
   }
 }
 
 .App-header {
   background-color: #2C2C2C;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,17 +25,20 @@
 }
 
 .headline-text {
-  height: 300px;
-  width: 1662px;
+  max-height: 300px;
+  width: auto;
+  margin-left: 134px;
+  margin-right: 134px;
   display: block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 70px;
+  font-size: 30px;
   font-weight: 900;
   color: FFFAF3;
   opacity: .25;
   font-family: 'Overpass', sans-serif;
+  text-indent: 50px;
 }
 
 .App-link {

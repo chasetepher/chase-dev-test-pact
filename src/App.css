@@ -62,14 +62,37 @@ button {
 .Carousel-Image {
   height: 200px;
   width: 175px;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
 
 .slider {
   height: 400px;
   width: 800px;
+  padding: 10px;
 }
 
 .single-slide {
   max-width: 200px;
-  height: auto;
+  height: 200px;
+  margin: 20px;
+}
+
+.carousel-holder {
+  width: 900px;
+  height: max-content;
+  background-color: #61dafb;
+}
+
+.image-category {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.category-blurb {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }

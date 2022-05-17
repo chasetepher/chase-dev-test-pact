@@ -7,7 +7,7 @@ export default function Carousel () {
     <CarouselProvider
       naturalSlideWidth={100}
       naturalSlideHeight={125}
-      totalSlides={4}
+      totalSlides={1}
     >
     <Slider className='slider'>
           <Slide className='single-slide' index={0}>
@@ -31,8 +31,6 @@ export default function Carousel () {
             <p className='category-blurb'>Praesent commodo cursus magna, vel scelerisque</p>
           </Slide>
         </Slider>
-        <ButtonBack>Back</ButtonBack>
-        <ButtonNext>Next</ButtonNext>
     </CarouselProvider>
   );
 }

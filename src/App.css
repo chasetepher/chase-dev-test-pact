@@ -1,6 +1,8 @@
 .App {
   background-color: #2C2C2C;
-  width: 1000px;
+  width: auto;
+  margin-bottom: -100px;
+  padding: 20px;
 }
 
 .App-logo {
@@ -68,9 +70,10 @@ button {
 }
 
 .slider {
-  height: 400px;
+  height: 300px;
   width: 800px;
   padding: 10px;
+  margin-left: 300px;
 }
 
 .single-slide {
@@ -82,19 +85,21 @@ button {
 .carousel-holder {
   width: 900px;
   height: max-content;
-  background-color: #61dafb;
+  /* background-color: #61dafb; */
 }
 
 .image-category {
   font-family: 'Overpass', sans-serif;
   font-weight: 700;
   font-size: 10px;
+  color: #FFFAF3;
 }
 
 .category-blurb {
   font-family: 'Overpass', sans-serif;
   font-weight: 400;
   font-size: 12px;
+  color: #FFFAF3;
 }
 
 .footer-blurb {
@@ -108,13 +113,17 @@ button {
   justify-items: center;
   background-color: #ACCEC8;
   width: auto;
-  height: 400px;
+  height: 300px;
+  margin: 50px;
+  border-radius: 5px;
+  padding: 50px;
 }
 
 .intersection {
   font-family: 'Overpass', sans-serif;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 25px;
+  margin: 10px;
 }
 
 .about-blurb {

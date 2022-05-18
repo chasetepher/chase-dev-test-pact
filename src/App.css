@@ -1,8 +1,8 @@
 .App {
   background-color: #2C2C2C;
   width: auto;
-  margin-bottom: -1000px;
-  padding: 20px;
+  margin-bottom: -200px;
+  padding: 50px;
 }
 
 .App-logo {
@@ -27,6 +27,11 @@
   color: white;
 }
 
+@keyframes headline {
+  from {color: #2C2C2C;}
+  to {color: #FFFAF3}
+}
+
 .headline-text {
   height: auto;
   width: 75%;
@@ -38,9 +43,11 @@
   font-size: 30px;
   font-weight: 900;
   color: FFFAF3;
-  opacity: .25;
+  opacity: .45;
   font-family: 'Overpass', sans-serif;
   text-indent: 50px;
+  animation-name: headline;
+  animation-duration: 8s;
 }
 
 .App-link {
@@ -82,7 +89,7 @@ button {
 }
 
 .slider {
-  height: auto;
+  max-height: 300px;
   width: 800px;
   padding: 10px;
   /* margin: auto; */
@@ -134,7 +141,7 @@ button {
   justify-items: center;
   background-color: #ACCEC8;
   width: 75%;
-  height: 300px;
+  height: auto;
   margin: auto;
   border-radius: 5px;
   padding: 50px;
@@ -143,18 +150,33 @@ button {
 .intersection {
   font-family: 'Overpass', sans-serif;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 35px;
   margin: 10px;
+  grid-area: intersection;
 }
 
 .about-blurb {
   font-family: 'Overpass', sans-serif;
   font-weight: 400;
   font-size: 10px;
+  grid-area: about-blurb;
+  margin: 10px;
 }
 
 .work-button {
   font-family: 'Overpass', sans-serif;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
+  grid-area: work-button;
+  padding: 12px 25px;
+  border-radius: 15px;
+  border: 2px solid #2C2C2C;
+  background-color:#ACCEC8;
+  margin-left: -100px;
+  transition-duration: .5s;
+}
+
+.work-button:hover {
+  background-color: black;
+  color: white;
 }

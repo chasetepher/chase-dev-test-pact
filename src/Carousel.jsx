@@ -9,7 +9,7 @@ export default function Carousel () {
     <CarouselProvider
       naturalSlideWidth={100}
       naturalSlideHeight={125}
-      totalSlides={1}
+      totalSlides={2}
     >
     <Slider className='slider'>
           <Slide className='single-slide' index={0}>
@@ -31,6 +31,26 @@ export default function Carousel () {
             <img className='Carousel-Image' src='https://s3-alpha-sig.figma.com/img/4a6e/e0ea/5a70824943cad2432278b6fae4d65967?Expires=1653868800&Signature=TdngrPsAC491jt-Db95Kt8EPcQOdKNDH8qWma8hM7zgeXx7YxMNb9Ns5jAPQlre8v-1Ubtuo2sFg8nuNkA5hQslO7AgnlLF1QPZGSt9vwT56XIO20gCIUMlG4Dx8mqol3Wa5UJZ3m49LmkikkZNKiydrA9bhoOXK-gfAaKBoyo9t3mUtnuQPAeCFJdOfx21iCGlCIv7npH1e26VHt~oTWXzkIuIrhyvi4PyoREQcw-xV9VBU5SAXCtjeppdAn8CA731BC6JpJ1GpgFcyVbr8l94JvMBTSwyiMiorA9WgjiPEoCOqk39C9tUnITvwbEP5~Am-VuvX5UfBqIB~lGfnqg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA' />
             <p className='image-category'>CATEGORY</p>
             <p className='category-blurb'>Praesent commodo cursus magna, vel scelerisque</p>
+          </Slide>
+          <Slide className='single-slide' index={4}>
+            <img className="Carousel-Image" src='https://i.imgur.com/Nzbc0Hi.jpg' />
+            <p className='image-category'>STUDIO</p>
+            <p className='category-blurb'>A dull reflection shows more than you think</p>
+          </Slide>
+          <Slide className='single-slide' index={5}>
+            <img className='Carousel-Image' src='https://i.imgur.com/6buRwsx.jpg' />
+            <p className='image-category'>CONTRAST</p>
+            <p className='category-blurb'>When everybody else looks forward, you look up</p>
+          </Slide>
+          <Slide className='single-slide' index={6}>
+            <img className='Carousel-Image' src='https://i.imgur.com/7YNBsiP.jpg' />
+            <p className='image-category'>PURSUIT</p>
+            <p className='category-blurb'>Purple is rarely as fast as feelings</p>
+          </Slide>
+          <Slide className='single-slide' index={7}>
+            <img className='Carousel-Image' src='https://i.imgur.com/h3kpNCx.jpg' />
+            <p className='image-category'>INSPIRATION </p>
+            <p className='category-blurb'>Windows are the doors to the soul</p>
           </Slide>
         </Slider>
     </CarouselProvider>

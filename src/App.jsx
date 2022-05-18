@@ -24,7 +24,7 @@ function App() {
       <p className='intersection'>THE INTERSECTION OF DESIGN, TECHNOLOGY AND BUSINESS.</p>
       <p className='about-blurb'>Pact takes a unique, team-like, and holistic approach to building direct-to-consumer businesses: we do more across a variety of touchpoints for
       fewer clients so that we can be accountable and flexible to all the road bumps that inherently come with building something new.</p>
-          <button className='work-button' type="button" onClick={() => alert('woah')}>
+          <button className='work-button' type="button" onClick={() => alert('Hi Pact')}>
             START YOUR PROJECT WITH PACT
           </button>
 

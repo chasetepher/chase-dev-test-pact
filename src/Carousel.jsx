@@ -4,6 +4,8 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 
 export default function Carousel () {
   return (
+    <div>
+      <p className='stories'> LATEST STORIES </p>
     <CarouselProvider
       naturalSlideWidth={100}
       naturalSlideHeight={125}
@@ -32,5 +34,7 @@ export default function Carousel () {
           </Slide>
         </Slider>
     </CarouselProvider>
+    </div>
+
   );
 }

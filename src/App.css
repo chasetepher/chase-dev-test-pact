@@ -140,6 +140,7 @@
   background-color:#ACCEC8;
   margin-left: -100px;
   transition-duration: .5s;
+  cursor: pointer;
 }
 
 .work-button:hover {

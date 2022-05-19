@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Carousel from './Carousel.jsx';
 import MobileCarousel from './mobileCarousel.jsx';
@@ -29,7 +28,7 @@ function App() {
     return (
       <div className="App">
       <div className="App-header">
-      <header className="headline-text">
+      <header className="headline-text-mobile">
         <p>OCCASIONALLY, WE OFFER PERSPECTIVES ON THE DIRECT-TO-CONSUMER LANDSCAPE, RETAIL INNOVATIONS, HAPPENINGS AROUND PACT AND THE ODD CREATIVE EXPERIMENT.</p>
       </header>
     </div>
@@ -40,7 +39,7 @@ function App() {
       <p className='intersection-mobile'>THE INTERSECTION OF DESIGN, TECHNOLOGY AND BUSINESS.</p>
       <p className='about-blurb-mobile'>Pact takes a unique, team-like, and holistic approach to building direct-to-consumer businesses: we do more across a variety of touchpoints for
       fewer clients so that we can be accountable and flexible to all the road bumps that inherently come with building something new.</p>
-          <button className='work-button-mobile' type="button" onClick={() => alert('Hi Pact')}>
+          <button className='work-button-mobile' type="button" onClick={() => alert('Hi Pact (in mobile)')}>
             START YOUR PROJECT WITH PACT
           </button>
     </div>

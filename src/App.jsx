@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Carousel from './Carousel.jsx';
+import MobileCarousel from './mobileCarousel.jsx';
 
 function App() {
   if (window.screen.width > 600) {
@@ -32,9 +33,9 @@ function App() {
         <p>OCCASIONALLY, WE OFFER PERSPECTIVES ON THE DIRECT-TO-CONSUMER LANDSCAPE, RETAIL INNOVATIONS, HAPPENINGS AROUND PACT AND THE ODD CREATIVE EXPERIMENT.</p>
       </header>
     </div>
-    {/* <div className='carousel-holder'>
-      <Carousel/>
-    </div> */}
+    <div className='mobile-carousel-holder'>
+      <MobileCarousel/>
+    </div>
     <div className='footer-blurb-mobile'>
       <p className='intersection-mobile'>THE INTERSECTION OF DESIGN, TECHNOLOGY AND BUSINESS.</p>
       <p className='about-blurb-mobile'>Pact takes a unique, team-like, and holistic approach to building direct-to-consumer businesses: we do more across a variety of touchpoints for

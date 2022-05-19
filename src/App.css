@@ -149,6 +149,30 @@
 
 /* MOBILE FORMATTING */
 
+.mobile-carousel-holder {
+  margin: auto;
+  width: 75%;
+}
+
+.Carousel-Image-mobile {
+  max-height: 70px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+  border-top-left-radius: 1em;
+  /* border-top-right-radius: 5px; */
+  border-bottom-right-radius: 1em;
+  object-fit: cover;
+}
+
+.image-category-mobile {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFAF3;
+}
+
 .footer-blurb-mobile {
   display: grid;
   grid-template-areas:
